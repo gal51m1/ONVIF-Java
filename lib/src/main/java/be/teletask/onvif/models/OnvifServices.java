@@ -10,8 +10,8 @@ public class OnvifServices {
     public static final String TAG = OnvifServices.class.getSimpleName();
     public static final String ONVIF_PATH_SERVICES = "/onvif/device_service";
     public static final String ONVIF_PATH_DEVICE_INFORMATION = "/onvif/device_service";
-    public static final String ONVIF_PATH_PROFILES = "/onvif/device_service";
-    public static final String ONVIF_PATH_STREAM_URI = "/onvif/device_service";
+    public static final String ONVIF_PATH_PROFILES = "/onvif/media_service";
+    public static final String ONVIF_PATH_STREAM_URI = "/onvif/media_service";
 
     //Attributes
     private String servicesPath = ONVIF_PATH_SERVICES;
